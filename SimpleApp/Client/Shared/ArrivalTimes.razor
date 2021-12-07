@@ -59,7 +59,7 @@
                 timer = new Timer(new TimerCallback(_ =>
                 {
                     uriHelper.NavigateTo(uriHelper.Uri, forceLoad: true);
-                }), null, 5000, 5000);
+                }), null, 60000, 60000);
                 timerStarted = true;
             }
         }
